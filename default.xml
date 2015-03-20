@@ -50,7 +50,7 @@
   <project path="libcore" name="libcore" remote="vanir-exodus" />
   <project path="manifest" name="platform_manifest" remote="vanir-exodus" />
   <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="vanir-exodus" />
-  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" revision="f1da736e118eb3d4160170c4ae572174186961b2" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="vanir-exodus" />
   <project path="packages/apps/Settings" name="team-exodus/packages_apps_Settings.git" remote="bitbucket" />
   <project path="packages/apps/Trebuchet" name="WillsExodus/packages_apps_Trebuchet" remote="github" revision="EXODUS"/>
@@ -86,6 +86,7 @@
   <project path="device/htc/dlx" name="device_htc_dlx" remote="vanir" />
   <project path="device/htc/evita" name="android_device_htc_evita" />
   <project path="device/htc/flounder" name="device_htc_flounder" remote="almighty" revision="L5" />
+  <project path="device/htc/flounderlte" name="device_htc_flounderlte" remote="vanir" revision="L5" />
   <project path="device/htc/flounder-kernel" name="device_htc_flounder-kernel" remote="almighty" revision="L5" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" />
   <project path="device/htc/m4" name="device_htc_m4" remote="vanir" />
@@ -250,7 +251,7 @@
   <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" remote="aosp" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" />
   <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" remote="aosp" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" remote="aosp" />
+  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" />
