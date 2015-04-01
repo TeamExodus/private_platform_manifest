@@ -30,7 +30,7 @@
   <remote name="ExInv"
           fetch="https://github.com/ExodusInverted/"
           revision="EXODUS" />
-  <default revision="refs/heads/cm-12.1"
+  <default revision="cm-12.1"
           sync-c="true"
           sync-j="8"
           remote="cm" />
