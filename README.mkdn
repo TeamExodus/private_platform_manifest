@@ -1,6 +1,6 @@
 Team Exodus repo
 
-This branch is for our EXODUS branch, our android-5.0.2 based ROM
+This branch is for our EXODUS branch, our android-5.1.0_r3 based ROM
 
 
 Getting Started
@@ -10,11 +10,11 @@ Please see the [Android source page](http://source.android.com/source/index.html
 
 To initialize Team-Exodus trees, use the following command:
 
-    repo init -u git://github.com/TeamExodus/platform_manifest.git -b EXODUS
+    repo init -u git://github.com/TeamExodus/private_platform_manifest.git -b EXODUS
 
 Mac Users: initialize your local repository using:
 
-    repo init -u git://github.com/TeamExodus/platform_manifest.git -b EXODUS -g darwin
+    repo init -u git://github.com/TeamExodus/private_platform_manifest.git -b EXODUS -g darwin
 
 Then to sync up:
 
