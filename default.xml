@@ -6,7 +6,7 @@
   <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-5.0.2_r1" />
+          revision="refs/tags/android-5.1.0_r1" />
   <remote name="cm"
           fetch="https://github.com/CyanogenMod"
           review="review.cyanogenmod.com" />
@@ -30,12 +30,15 @@
   <remote name="ExInv"
           fetch="https://github.com/ExodusInverted/"
           revision="EXODUS" />
-  <default revision="cm-12.0"
+  <default revision="cm-12.1"
           sync-c="true"
-          sync-j="12"
+          sync-j="8"
           remote="cm" />
 
-  <!-- EXODUS projects -->
+  <!-- EXODUS projects DONE LIST -->
+  <!--          :(               -->
+
+  <!-- EXODUS projects TO DO LIST-->
   <project path="art" name="art"  groups="aospL5" remote="team-exodus" />
   <project path="bionic" name="bionic" remote="team-exodus" groups="pdk" revision="exp" />
   <project path="build" name="build" remote="team-exodus" revision="EXODUS" groups="pdk">
