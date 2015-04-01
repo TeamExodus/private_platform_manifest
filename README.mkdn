@@ -10,11 +10,7 @@ Please see the [Android source page](http://source.android.com/source/index.html
 
 To initialize Team-Exodus trees, use the following command:
 
-    repo init -u git://github.com/TeamExodus/private_platform_manifest.git -b EXODUS
-
-Mac Users: initialize your local repository using:
-
-    repo init -u git://github.com/TeamExodus/private_platform_manifest.git -b EXODUS -g darwin
+    repo init -u https://github.com/TeamExodus/private_platform_manifest.git -b staging/EXODUS-5.1
 
 Then to sync up:
 
