@@ -46,10 +46,10 @@
     <copyfile src="tools/EXODUS_PROJECTS" dest="EXODUS_PROJECTS" />
   </project>
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="team-exodus" revision="staging/EXODUS-5.1" />
+  <project path="bionic" name="bionic" remote="team-exodus" groups="pdk" revision="staging/EXODUS-5.1" />
   
   <!-- EXODUS projects TO DO LIST-->
   <project path="art" name="art"  groups="aospL5" remote="team-exodus" />
-  <project path="bionic" name="bionic" remote="team-exodus" groups="pdk" revision="exp" />
   <project path="external/skia" name="external_skia" remote="team-exodus" />
   <project path="frameworks/av" name="frameworks_av" remote="team-exodus" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="team-exodus" />
