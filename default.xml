@@ -39,14 +39,16 @@
   <!-- EXODUS projects DONE LIST -->
   <!--          :(               -->
 
-  <!-- EXODUS projects TO DO LIST-->
-  <project path="art" name="art"  groups="aospL5" remote="team-exodus" />
-  <project path="bionic" name="bionic" remote="team-exodus" groups="pdk" revision="exp" />
-  <project path="build" name="build" remote="team-exodus" revision="EXODUS" groups="pdk">
+  <!-- EXODUS merged but need to be verified -->
+  <project path="build" name="build" remote="team-exodus" revision="staging/EXODUS-5.1" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
     <copyfile src="tools/EXODUS_PROJECTS" dest="EXODUS_PROJECTS" />
   </project>
+  
+  <!-- EXODUS projects TO DO LIST-->
+  <project path="art" name="art"  groups="aospL5" remote="team-exodus" />
+  <project path="bionic" name="bionic" remote="team-exodus" groups="pdk" revision="exp" />
   <project path="external/skia" name="external_skia" remote="team-exodus" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="team-exodus" revision="EXODUS" />
   <project path="frameworks/av" name="frameworks_av" remote="team-exodus" groups="pdk" />
