@@ -40,11 +40,12 @@
   <!--          :(               -->
 
   <!-- EXODUS merged but need to be verified -->
-  <project path="build" name="build" remote="team-exodus" revision="staging/EXODUS-5.1" groups="pdk">
+  <project path="build" name="build" groups="pdk" remote="team-exodus" revision="staging/EXODUS-5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
     <copyfile src="tools/EXODUS_PROJECTS" dest="EXODUS_PROJECTS" />
   </project>
+  <project path="system/core" name="system_core" groups="pdk" remote="team-exodus" revision="staging/EXODUS-5.1" />
   
   <!-- EXODUS projects TO DO LIST-->
   <project path="art" name="android_art"  />
@@ -59,7 +60,6 @@
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="team-exodus" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="team-exodus" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" />
-  <project path="system/core" name="android_system_core" groups="pdk" />
   <project path="vendor/vanir" name="vendor_vanir" remote="team-exodus" groups="vendor" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk"  />
   <project path="bionic" name="android_bionic" groups="pdk" />
