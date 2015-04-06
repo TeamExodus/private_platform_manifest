@@ -75,28 +75,30 @@
   <project path="device/motorola/msm8960-common" name="device_motorola_msm8960-common" remote="ExInv" />
 
   <!-- Vanir repos to be moved back to CM -->
-  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="vanir" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
+  <!-- not used for the moment
   <project path="bootable/recovery-aosp" name="bootable_recovery-aosp" groups="pdk" remote="vanir" />
   <project path="bootable/recovery-twrp" name="bootable_recovery_TWRP" groups="pdk" remote="vanir" />
-  <project path="external/busybox" name="external_busybox" remote="vanir" />
-  <project path="external/clang" name="external_clang" remote="vanir" groups="pdk" revision="L51-staging" />
-  <project path="external/curl" name="external_curl" remote="vanir" />
-  <project path="external/dnsmasq" name="external_dnsmasq" groups="pdk" remote="vanir" />
-  <project path="external/iputils" name="external_iputils" remote="vanir" groups="aospL5" />
-  <project path="external/klogripper" name="external_klogripper" remote="vanir" />
-  <project path="external/libncurses" name="external_libncurses" remote="vanir" />
-  <project path="external/lsof" name="external_lsof" remote="vanir" />
-  <project path="external/openssl" name="external_openssl" remote="vanir" groups="pdk" />
-  <project path="external/oprofile" name="external_oprofile" remote="vanir" />
-  <project path="external/sonivox" name="external_sonivox" remote="vanir" groups="pdk" />
-  <project path="external/stlport" name="external_stlport" groups="pdk" remote="vanir" revision="L5" />
-  <project path="external/tcpdump" name="external_tcpdump" remote="vanir" />
-  <project path="external/wpa_supplicant_8_ti" name="external_wpa_supplicant_8_ti" remote="vanir" groups="pdk" />
-  <project path="frameworks/compile/slang" name="frameworks_compile_slang" remote="vanir" groups="pdk" />
-  <project path="frameworks/ex" name="frameworks_ex" remote="vanir" />
-  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="vanir" />
-  <project path="hardware/ril-aosp" name="hardware_ril" remote="vanir" revision="L5-aosp" groups="pdk" />
-  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="vanir" />
+  -->
+  <project path="external/busybox" name="android_external_busybox" />
+  <project path="external/clang" name="platform/external/clang" remote="aosp" groups="pdk" />
+  <project path="external/curl" name="android_external_curl" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" groups="pdk" />
+  <project path="external/iputils" name="platform/external/iputils" remote="aosp" />
+  <!-- <project path="external/klogripper" name="external_klogripper" remote="vanir" /> -->
+  <project path="external/libncurses" name="android_external_libncurses" />
+  <project path="external/lsof" name="android_external_lsof" />
+  <project path="external/openssl" name="android_external_openssl" groups="pdk" />
+  <project path="external/oprofile" name="platform/external/oprofile" remote="aosp" />
+  <project path="external/sonivox" name="android_external_sonivox" groups="pdk" />
+  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" />
+  <project path="external/tcpdump" name="android_external_tcpdump" />
+  <!-- <project path="external/wpa_supplicant_8_ti" name="external_wpa_supplicant_8_ti" remote="vanir" groups="pdk" /> -->
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" groups="pdk" />
+  <project path="frameworks/ex" name="android_frameworks_ex" />
+  <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" />
+  <!-- <project path="hardware/ril-aosp" name="android_hardware_ril"  groups="pdk" /> -->
+  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="ccache" name="ccache.git" remote="samba" revision="master" />
@@ -114,7 +116,7 @@
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="android_device_generic_common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device_generic_goldfish" remote="vanir" groups="pdk" />
+  <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" />
   <project path="device/generic/mips" name="android_device_generic_mips" groups="pdk" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
@@ -163,13 +165,13 @@
   <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="vanir" />
   <project path="device/motorola/victara" name="android_device_motorola_victara" />
   <project path="device/oppo/apq8064-common" name="android_device_oppo_apq8064-common" device="oppo_n1" /> -->
-  <project path="device/oppo/common" name="device_oppo_common" device="oppo_n1" remote="vanir" />
+  <!-- <project path="device/oppo/common" name="android_device_oppo_common" device="oppo_n1" /> -->
   <!-- we don't build this currently <project path="device/oppo/find5" name="android_device_oppo_find5" device="find5" />
   <project path="device/oppo/find7" name="android_device_oppo_find7" device="find7" />
   <project path="device/oppo/find7-common" name="android_device_oppo_find7-common" device="find7" />
   <project path="device/oppo/find7s" name="android_device_oppo_find7s" device="find7" />
   <project path="device/oppo/n1" name="android_device_oppo_n1" device="oppo_n1" /> -->
-  <project path="device/qcom/common" name="device_qcom_common" remote="vanir" />
+  <project path="device/qcom/common" name="android_device_qcom_common" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <!-- we don't build these currently
@@ -603,22 +605,22 @@
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" groups="aospL5" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="vanir" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="vanir" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="packages_apps_soundrecorder" remote="vanir" />
+  <project path="packages/apps/SoundRecorder" name="android_packages_apps_soundrecorder" />
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" />
 <!--  <project path="packages/apps/SpeakerProximity" name="packages_apps_SpeakerProximity" remote="vanir" /> -->
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" />
-  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" />
+  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" />
-  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="vanir" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" />
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" groups="pdk-cw-fs" />
