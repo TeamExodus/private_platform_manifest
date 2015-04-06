@@ -45,29 +45,30 @@
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
     <copyfile src="tools/EXODUS_PROJECTS" dest="EXODUS_PROJECTS" />
   </project>
-  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="team-exodus" revision="staging/EXODUS-5.1" />
-  <project path="bionic" name="bionic" remote="team-exodus" groups="pdk" revision="staging/EXODUS-5.1" />
   
   <!-- EXODUS projects TO DO LIST-->
-  <project path="art" name="art"  groups="aospL5" remote="team-exodus" />
-  <project path="external/skia" name="external_skia" remote="team-exodus" />
-  <project path="frameworks/av" name="frameworks_av" remote="team-exodus" groups="pdk" />
+  <project path="art" name="android_art"  />
+  <project path="external/skia" name="android_external_skia" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="team-exodus" />
-  <project path="frameworks/native" name="frameworks_native" remote="team-exodus" revision="EXODUS" groups="pdk" />
-  <project path="libcore" name="libcore" remote="team-exodus" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" />
+  <project path="libcore" name="android_libcore" />
   <project path="manifest" name="platform_manifest" remote="team-exodus" />
   <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="team-exodus" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" revision="f1da736e118eb3d4160170c4ae572174186961b2" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="team-exodus" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="team-exodus" />
-  <project path="packages/apps/Trebuchet" name="WillsExodus/packages_apps_Trebuchet" remote="github" revision="EXODUS"/>
-  <project path="system/core" name="system_core" remote="team-exodus" groups="pdk" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" />
+  <project path="system/core" name="android_system_core" groups="pdk" />
   <project path="vendor/vanir" name="vendor_vanir" remote="team-exodus" groups="vendor" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk"  />
+  <project path="bionic" name="android_bionic" groups="pdk" />
 
   <!-- Exodus Devices -->
-  <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="team-exodus" />
-  <project path="device/oppo/msm8974-common" name="device_oppo_msm8974-common" device="BACON" remote="team-exodus"/>
-  <project path="device/moto/shamu" name="WillsExodus/device_moto_shamu" remote="github" revision="EXODUS" />
+  <project path="device/oneplus/bacon" name="device_oneplus_bacon" device="BACON" remote="team-exodus" revision="staging/EXODUS-5.1" />
+  <project path="device/oppo/msm8974-common" name="device_oppo_msm8974-common" device="BACON" remote="team-exodus" revision="staging/EXODUS-5.1"/>
+  <project path="device/moto/shamu" name="android_device_moto_shamu" />
+  
   <!-- Import from ExodusInverted -->
   <project path="device/motorola/xt926" name="device_motorola_xt926" remote="ExInv" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="ExInv" />
