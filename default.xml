@@ -57,7 +57,8 @@
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" revision="f1da736e118eb3d4160170c4ae572174186961b2" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="team-exodus" />
   <project path="packages/apps/Settings" name="TeamExodus/private_packages_apps_Settings" remote="private" />
-  <project path="packages/apps/Trebuchet" name="WillsExodus/packages_apps_Trebuchet" remote="github" revision="EXODUS"/>
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" />
+  <project path="packages/inputmethods/LatinIME" name="TeamExodus/packages_inputmethods_LatinIME" remote="private" />
   <project path="system/core" name="system_core" remote="team-exodus" groups="pdk" />
   <project path="vendor/vanir" name="vendor_vanir" remote="team-exodus" groups="vendor" />
 
@@ -608,7 +609,6 @@
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="vanir" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="vanir" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="team-exodus" />
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="pdk-cw-fs" />
