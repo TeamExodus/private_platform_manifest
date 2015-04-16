@@ -64,7 +64,6 @@
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="team-exodus" />
   <project path="packages/apps/Settings" name="TeamExodus/private_packages_apps_Settings" remote="private" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" />
-  <project path="packages/inputmethods/LatinIME" name="TeamExodus/packages_inputmethods_LatinIME" remote="private" />
   <project path="vendor/exodus" name="vendor_exodus" remote="team-exodus" groups="vendor" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk"  />
   <project path="bionic" name="android_bionic" groups="pdk" />
