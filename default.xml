@@ -42,6 +42,7 @@
 
   <!-- EXODUS projects DONE LIST -->
   <project path="vendor/exodus" name="vendor_exodus" remote="team-exodus" groups="vendor" revision="staging/EXODUS-5.1"/>
+  <project path="frameworks/base" name="frameworks_base" remote="team-exodus" revision="staging/EXODUS-5.1" />
   <!--          :(               -->
 
   <!-- EXODUS merged but need to be verified -->
@@ -56,14 +57,13 @@
   <project path="art" name="android_art"  />
   <project path="external/skia" name="android_external_skia" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="team-exodus" revision="staging/EXODUS-5.1" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" />
   <project path="libcore" name="android_libcore" />
   <project path="manifest" name="TeamExodus/private_platform_manifest" remote="private" revision="staging/EXODUS-5.1" />
   <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="team-exodus" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" revision="f1da736e118eb3d4160170c4ae572174186961b2" />
   <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="team-exodus" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="team-exodus" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="team-exodus" revision="staging/EXODUS-5.1" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk"  />
   <project path="bionic" name="android_bionic" groups="pdk" />
