@@ -59,7 +59,7 @@
   <project path="art" name="android_art"  />
   <project path="external/skia" name="android_external_skia" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="team-exodus" />
+  <project path="frameworks/base" name="frameworks_base" remote="team-exodus" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" />
   <project path="libcore" name="android_libcore" />
   <project path="manifest" name="TeamExodus/private_platform_manifest" remote="private" />
