@@ -60,7 +60,7 @@
   <project path="system/core" name="system_core" groups="pdk" remote="team-exodus" />
   
   <!-- EXODUS projects list-->
-  <project path="art" name="private_art" remote="private" />
+  <project path="art" name="TeamExodus/private_art" remote="private" />
   <project path="external/skia" name="android_external_skia" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="TeamExodus/private_frameworks_base" remote="private" />
