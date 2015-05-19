@@ -68,6 +68,7 @@
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" />
   <project path="libcore" name="android_libcore" />
   <project path="manifest" name="TeamExodus/private_platform_manifest" remote="private" />
+  <project path="packages/apps/ExodusSettings" name="packages_apps_ExodusSettings" remote="team-exodus" />
   <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="team-exodus" />
   
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />
