@@ -52,10 +52,11 @@
   <project path="packages/apps/ExodusSettings" name="TeamExodus/private_packages_apps_ExodusSettings" remote="private" />
   <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="team-exodus" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="team-exodus" />
+  <project path="packages/inputmethods/LatinIME" name="TeamExodus/private_packages_inputmethods_LatinIME" remote="private" />
   <project path="system/core" name="system_core" groups="pdk" remote="team-exodus" />
   <project path="vendor/exodus" name="vendor_exodus" remote="team-exodus" groups="vendor" />
   <project path="vendor/exodus/devices" name="vendor_exodus_devices" remote="team-exodus" groups="vendor" />
-
+  
   <!-- other repos -->
   <project path="bionic" name="android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
@@ -481,7 +482,6 @@
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" />
-  <project path="packages/inputmethods/LatinIME" name="TeamExodus/packages_inputmethods_LatinIME" remote="private" />
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="pdk-cw-fs" />
