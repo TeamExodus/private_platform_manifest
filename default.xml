@@ -44,7 +44,7 @@
 
   <!-- EXODUS projects list-->
   <project path="art" name="TeamExodus/private_art" remote="private" />
-  <project path="build" name="build" groups="pdk" remote="team-exodus" >
+  <project path="build" name="TeamExodus/private_build" groups="pdk" remote="private" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="TeamExodus/private_frameworks_base" remote="private" />
