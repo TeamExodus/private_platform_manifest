@@ -44,8 +44,10 @@
 
   <!-- EXODUS projects list-->
   <project path="art" name="TeamExodus/private_art" remote="private" />
+  <!-- if BUILD_COMMAND_README is not displaying delete the Makefile and resync -->
   <project path="build" name="TeamExodus/private_build" groups="pdk" remote="private" >
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
   </project>
   <project path="frameworks/base" name="TeamExodus/private_frameworks_base" remote="private" />
   <project path="manifest" name="TeamExodus/private_platform_manifest" remote="private" />
