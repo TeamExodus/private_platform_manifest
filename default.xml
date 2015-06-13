@@ -49,6 +49,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
   </project>
+  <project path="community_support" name="community_support" remote="team-exodus" />
   <project path="frameworks/base" name="TeamExodus/private_frameworks_base" remote="private" />
   <project path="manifest" name="TeamExodus/private_platform_manifest" remote="private" />
   <project path="packages/apps/ExodusSettings" name="TeamExodus/private_packages_apps_ExodusSettings" remote="private" />
