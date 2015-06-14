@@ -313,7 +313,6 @@
   <project path="external/pigz" name="android_external_pigz" />
   <project path="external/pixman" name="platform/external/pixman" remote="aosp" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/proguard" name="platform/external/proguard" groups="pdk-java,tradefed" remote="aosp" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" />
   <project path="external/protobuf-c" name="android_external_protobuf-c" />
   <project path="external/qemu" name="platform/external/qemu" groups="pdk-cw-fs" remote="aosp" />
@@ -332,7 +331,6 @@
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/speex" name="android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="android_external_spongycastle" groups="pdk" />
-  <project path="external/sqlite" name="android_external_sqlite" groups="pdk" />
   <project path="external/square/dagger" name="android_external_square_dagger" />
   <project path="external/square/javawriter" name="android_external_square_javawriter" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" remote="aosp" />
