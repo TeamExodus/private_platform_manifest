@@ -52,6 +52,7 @@
   <project path="community_support" name="community_support" remote="team-exodus" />
   <project path="external/proguard" name="external_proguard" remote="team-exodus" />
   <project path="external/sqlite" name="external_sqlite" remote="team-exodus" />
+  <project path="external/jemalloc" name="external_jemalloc" remote="team-exodus">
   <project path="frameworks/base" name="TeamExodus/private_frameworks_base" remote="private" />
   <project path="manifest" name="TeamExodus/private_platform_manifest" remote="private" />
   <project path="packages/apps/ExodusSettings" name="TeamExodus/private_packages_apps_ExodusSettings" remote="private" />
@@ -218,7 +219,6 @@
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" remote="aosp" />
