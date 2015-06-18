@@ -44,6 +44,7 @@
 
   <!-- EXODUS projects list-->
   <project path="art" name="TeamExodus/private_art" remote="private" />
+  <project path="bionic" name="bionic" remote="team-exodus" />
   <!-- if BUILD_COMMAND_README is not displaying delete the Makefile and resync -->
   <project path="build" name="TeamExodus/private_build" groups="pdk" remote="private" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -65,7 +66,6 @@
   <project path="vendor/exodus/devices" name="vendor_exodus_devices" remote="team-exodus" groups="vendor" />
   
   <!-- other repos -->
-  <project path="bionic" name="android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="external/busybox" name="android_external_busybox" />
   <project path="external/clang" name="platform/external/clang" remote="aosp" groups="pdk" />
