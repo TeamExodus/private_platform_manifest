@@ -556,7 +556,7 @@
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux"  remote="aosp" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel"  groups="pdk" remote="aosp" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk"  groups="pdk" remote="aosp" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools"  groups="pdk" remote="aosp" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools"  groups="pdk" remote="aosp" revision="master" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" remote="aosp" />
   <project path="system/extras" name="android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="android_system_extras_su" />
