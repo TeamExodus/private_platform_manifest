@@ -51,10 +51,14 @@
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
   </project>
   <project path="community_support" name="community_support" remote="team-exodus" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="team-exodus" />
   <project path="external/proguard" name="external_proguard" remote="team-exodus" />
   <project path="external/sqlite" name="external_sqlite" remote="team-exodus" />
   <project path="external/jemalloc" name="external_jemalloc" remote="team-exodus"/>
   <project path="frameworks/base" name="TeamExodus/private_frameworks_base" remote="private" />
+  <project path="frameworks/support" name="frameworks_support" remote="team-exodus" />
+  <project path="external/guava" name="external_guava" groups="pdk-cw-fs,tradefed" remote="team-exodus" />
+  <project path="libcore" name="libcore" remote="team-exodus" />
   <project path="manifest" name="TeamExodus/private_platform_manifest" remote="private" />
   <project path="packages/apps/ExodusSettings" name="TeamExodus/private_packages_apps_ExodusSettings" remote="private" />
   <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="team-exodus" />
@@ -130,7 +134,6 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" remote="aosp" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
-  <project path="external/chromium_org" name="android_external_chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" remote="aosp" />
@@ -207,7 +210,6 @@
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" remote="aosp" />
   <project path="external/gson" name="android_external_gson" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" />
-  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" remote="aosp" />
   <project path="external/heimdall" name="android_external_heimdall" />
@@ -395,7 +397,6 @@
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
   <project path="frameworks/rs" name="android_frameworks_rs" />
-  <project path="frameworks/support" name="android_frameworks_support" />
   <project path="frameworks/volley" name="android_frameworks_volley" />
   <project path="frameworks/webview" name="android_frameworks_webview" />
   <project path="hardware/akm" name="android_hardware_akm" groups="pdk" />
@@ -448,7 +449,6 @@
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" />
-  <project path="libcore" name="android_libcore" />
   <project path="libnativehelper" name="android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" />
