@@ -14,7 +14,7 @@
    <!-- This one is for roomservice -->
   <remote name="locals"
           fetch="https://github.com/" 
-          review="vanir-exodus.net:8000"
+          review="exodus-developers.net:8000"
           revision="EXODUS-5.1"/>
   <remote name="vendors"
           fetch="https://github.com/TheMuppets"
@@ -31,11 +31,11 @@
           revision="L51" />
   <remote name="team-exodus"
           fetch="https://github.com/TeamExodus"
-          review="vanir-exodus.net:8000"
+          review="exodus-developers.net:8000"
           revision="EXODUS-5.1" />
   <remote name="private"
           fetch="ssh://git@github.com"
-          review="vanir-exodus.net:8000"
+          review="exodus-developers.net:8000"
           revision="EXODUS-5.1" />
   <default revision="cm-12.1"
           sync-c="true"
