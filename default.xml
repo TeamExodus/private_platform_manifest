@@ -64,6 +64,7 @@
   <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="team-exodus" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="team-exodus" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="team-exodus" />
+  <project path="packages/apps/ScreenRecorder" name="packages_apps_ScreenRecorder" remote="team-exodus" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="team-exodus" />
   <project path="packages/inputmethods/LatinIME" name="TeamExodus/private_packages_inputmethods_LatinIME" remote="private" />
   <project path="system/core" name="system_core" groups="pdk" remote="team-exodus" />
