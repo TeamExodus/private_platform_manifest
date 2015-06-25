@@ -52,6 +52,7 @@
   </project>
   <project path="community_support" name="community_support" remote="team-exodus" />
   <project path="external/chromium_org" name="android_external_chromium_org" remote="team-exodus" />
+  <project path="external/dhcpcd" name="android_external_dhcpcd" groups="pdk-cw-fs" remote="team-exodus" />
   <project path="external/proguard" name="external_proguard" remote="team-exodus" />
   <project path="external/sqlite" name="external_sqlite" remote="team-exodus" />
   <project path="external/jemalloc" name="external_jemalloc" remote="team-exodus"/>
@@ -172,7 +173,6 @@
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/dhcpcd" name="android_external_dhcpcd" groups="pdk-cw-fs" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/droiddriver" name="platform/external/droiddriver"  groups="aospL5" remote="aosp" />
   <project path="external/dropbear" name="android_external_dropbear" />
