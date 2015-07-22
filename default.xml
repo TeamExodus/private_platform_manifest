@@ -42,6 +42,9 @@
           sync-j="8"
           remote="cm" />
 
+  <!-- Anti-piracy support -->
+  <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" />
+
   <!-- EXODUS projects list-->
   <project path="art" name="TeamExodus/private_art" remote="private" />
   <project path="bionic" name="bionic" remote="team-exodus" />
