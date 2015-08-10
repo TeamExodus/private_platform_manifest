@@ -60,6 +60,7 @@
   <project path="external/sqlite" name="external_sqlite" remote="team-exodus" />
   <project path="external/jemalloc" name="external_jemalloc" remote="team-exodus"/>
   <project path="frameworks/base" name="TeamExodus/private_frameworks_base" remote="private" />
+  <project path="frameworks/native" name="frameworks_native" remote="team-exodus" />
   <project path="frameworks/support" name="frameworks_support" remote="team-exodus" />
   <project path="external/guava" name="external_guava" groups="pdk-cw-fs,tradefed" remote="team-exodus" />
   <project path="libcore" name="libcore" remote="team-exodus" />
@@ -378,7 +379,6 @@
   <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="android_frameworks_ml" />
   <project path="frameworks/multidex" name="android_frameworks_multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" />
