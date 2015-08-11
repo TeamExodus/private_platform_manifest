@@ -43,7 +43,7 @@
           remote="cm" />
 
   <!-- Anti-piracy support -->
-  <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" />
+  <project path="packages/services/AntiPiracy" name="ContentGuard/AntiPiracySupport" remote="github" revision="beta" />
 
   <!-- EXODUS projects list-->
   <project path="art" name="TeamExodus/private_art" remote="private" />
