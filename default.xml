@@ -75,7 +75,7 @@
   <project path="system/core" name="system_core" groups="pdk" remote="team-exodus" />
   <project path="vendor/exodus" name="vendor_exodus" remote="team-exodus" groups="vendor" />
   <project path="vendor/exodus/devices" name="vendor_exodus_devices" remote="team-exodus" groups="vendor" />
-  <project path="website" name="private_website" remote="private" />
+  <project path="website" name="TeamExodus/private_website" remote="private" />
   
   <!-- other repos -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
