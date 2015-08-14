@@ -7,13 +7,13 @@
           revision="refs/tags/android-5.1.1_r13" />
   <remote name="cm"
           fetch="https://github.com/CyanogenMod"
-          review="review.cyanogenmod.com" 
+          review="review.cyanogenmod.com"
           revision="cm-12.1"/>
   <remote name="github"
           fetch="https://github.com/" />
    <!-- This one is for roomservice -->
   <remote name="locals"
-          fetch="https://github.com/" 
+          fetch="https://github.com/"
           review="exodus-developers.net:8000"
           revision="EXODUS-5.1"/>
   <remote name="vendors"
@@ -75,8 +75,8 @@
   <project path="system/core" name="system_core" groups="pdk" remote="team-exodus" />
   <project path="vendor/exodus" name="vendor_exodus" remote="team-exodus" groups="vendor" />
   <project path="vendor/exodus/devices" name="vendor_exodus_devices" remote="team-exodus" groups="vendor" />
-  <project path="website" name="private_website" remote="private" />
-  
+  <project path="website" name="TeamExodus/private_website" remote="private" />
+
   <!-- other repos -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="external/busybox" name="android_external_busybox" />
