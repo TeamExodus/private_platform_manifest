@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".." />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com/"
+          review="https://android-review.googlesource.com/" />
            
   <remote name="team-exodus"
           fetch="https://github.com/TeamExodus"
           review="exodus-developers.net:8000"
-          revision="EXODUS-5.1" />
+          revision="bttr" />
           
   <remote name="private"
           fetch="ssh://git@github.com"
           review="exodus-developers.net:8000"
-          revision="EXODUS-5.1" />
+          revision="bttr" />
            
   <remote  name="omnirom"
            review="gerrit.omnirom.org"
@@ -22,7 +23,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="TeamExodus/private_build" groups="pdk" remote="private" revision="bttr" >
+  <project path="build" name="TeamExodus/private_build" groups="pdk" remote="private" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
