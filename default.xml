@@ -3,11 +3,26 @@
 
   <remote  name="aosp"
            fetch=".." />
+           
+  <remote name="team-exodus"
+          fetch="https://github.com/TeamExodus"
+          review="exodus-developers.net:8000"
+          revision="EXODUS-5.1" />
+          
+  <remote name="private"
+          fetch="ssh://git@github.com"
+          review="exodus-developers.net:8000"
+          revision="EXODUS-5.1" />
+           
+  <remote  name="omnirom"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
+           
   <default revision="refs/tags/android-5.1.1_r13"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="build" name="TeamExodus/private_build" groups="pdk" remote="private" revision="bttr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
