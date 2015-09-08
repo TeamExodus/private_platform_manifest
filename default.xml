@@ -66,7 +66,6 @@
   <project path="libcore" name="libcore" remote="team-exodus" />
   <project path="manifest" name="TeamExodus/private_platform_manifest" remote="private" />
   <project path="packages/apps/ExodusSettings" name="TeamExodus/private_packages_apps_ExodusSettings" remote="private" />
-  <project path="packages/apps/ExodusUpdater" name="packages_apps_ExodusUpdater" remote="team-exodus" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="team-exodus" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="team-exodus" />
   <project path="packages/apps/ScreenRecorder" name="packages_apps_ScreenRecorder" remote="team-exodus" />
