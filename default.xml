@@ -444,7 +444,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" revision="cm-12.1-caf" />
-  <project path="hardware/samsung" name="android_hardware_samsung" />
+  <project path="hardware/samsung" name="hardware_samsung" remote="team-exodus" />
   <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
