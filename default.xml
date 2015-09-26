@@ -53,6 +53,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
   </project>
+  <project path="build/tools" name="AnyKernel2" remote="team-exodus" />
   <project path="community_support" name="community_support" remote="team-exodus" />
   <project path="external/chromium_org" name="android_external_chromium_org" remote="team-exodus" />
   <project path="external/dhcpcd" name="external_dhcpcd" groups="pdk-cw-fs" remote="team-exodus" />
