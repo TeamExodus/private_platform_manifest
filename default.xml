@@ -58,6 +58,7 @@
   <project path="external/chromium_org" name="android_external_chromium_org" remote="team-exodus" />
   <project path="external/dhcpcd" name="external_dhcpcd" groups="pdk-cw-fs" remote="team-exodus" />
   <project path="external/proguard" name="external_proguard" remote="team-exodus" />
+  <project path="external/stlport" name="external_stlport" remote="team-exodus" />
   <project path="external/sqlite" name="external_sqlite" remote="team-exodus" />
   <project path="external/jemalloc" name="external_jemalloc" remote="team-exodus"/>
   <project path="frameworks/base" name="TeamExodus/private_frameworks_base" remote="private" />
