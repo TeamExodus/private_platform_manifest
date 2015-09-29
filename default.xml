@@ -90,7 +90,6 @@
   <project path="external/openssl" name="android_external_openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" remote="aosp" />
   <project path="external/sonivox" name="android_external_sonivox" groups="pdk" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" />
   <project path="external/tcpdump" name="android_external_tcpdump" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" groups="pdk" />
   <project path="frameworks/ex" name="android_frameworks_ex" />
