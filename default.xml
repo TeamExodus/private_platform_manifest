@@ -14,6 +14,11 @@
           fetch="ssh://git@github.com"
           review="exodus-developers.net:8000"
           revision="bttr" />
+
+  <remote name="roomservice"
+          fetch="ssh://git@github.com"
+          review="exodus-developers.net:8000"
+          revision="bttr" />
           
   <default revision="refs/tags/android-5.1.1_r18"
            remote="aosp"
