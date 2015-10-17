@@ -28,7 +28,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform/art" groups="pdk" />
+  <project path="art" name="TeamExodus/private_art" groups="pdk" remote="private" />
   <project path="bionic" name="bionic" groups="pdk" remote="team-exodus" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
