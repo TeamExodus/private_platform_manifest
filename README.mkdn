@@ -16,7 +16,7 @@ or
 
 To initialize Team-Exodus trees with SSH Authentication, use the following command:
 
-    repo init -u https://github.com/TeamExodus/private_platform_manifest.git -b EXODUS-6.0
+    repo init -u ssh://github.com/TeamExodus/private_platform_manifest.git -b EXODUS-6.0
 
 Then to sync up:
 
