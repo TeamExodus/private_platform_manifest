@@ -16,11 +16,11 @@ Then to sync up:
 
     repo sync -j8
     
-Our gerrit:
+Our gerrit url for code review:
 
-	http://vanir-exodus.net:8000
+    http://vanir-exodus.net:8000
     
-    For pushing stuff : ssl://YourGitHubName@vanir-exodus.net:29418/repo_you_want_to_contribute_to HEADS:refs/for/EXODUS-5.1
+    For code push: ssh://<<YourGitHubName>>@vanir-exodus.net:29418/<<repo_you_want_to_contribute_to>> HEAD:refs/for/EXODUS-5.1
 
 Our Community:
 
